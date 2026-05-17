@@ -12,7 +12,8 @@ Tenho grande interesse em tecnologia, inteligência artificial, desenvolvimento 
 ## 🌍 Contato
 
 - **Telefone:** +55 (61) 99516-9577  
-- **Email:** arthurnovais751@gmail.com  
+- **Email:** arthurnovais751@gmail.com
+- Linkedin: [linkedin.com/in/arthur-novais-vieira-16b28b40a](https://www.linkedin.com/in/arthur-novais-vieira-16b28b40a/)  
 
 ---
 
@@ -88,17 +89,20 @@ Tenho grande interesse em tecnologia, inteligência artificial, desenvolvimento 
 ## 📂 Projetos Acadêmicos e Profissionais
 
 - Participação em competições matemáticas  
-- Projetos voltados para sustentabilidade e meio ambiente  
+- Treinamento com a consultoria intercultural Differänce
+- com Mariana Barros em 2021.
+O que era feito: consultas e sessões de aprendizado 
+viradas para a expansão de conhecimento intercultural,
+tornando as pessoas mais capazes de se tornarem mais
+compreensivas com pessoas de outras nacionalidades e histórias diferentes.   
 - Coleta de lixo em praias de Portugal  
 - Doações para asilos e orfanatos  
 - Voluntariado ensinando português para estrangeiros  
-- Experiências interculturais em Portugal e Espanha  
-
----
-
-## 🌐 Sobre o Projeto
-
-Este repositório contém o desenvolvimento do meu portfólio pessoal, criado para apresentar minhas habilidades, experiências e trajetória acadêmica.
+- Experiências interculturais em Portugal e Espanha
+- Curso de Lógica de Programação DYTZ, feito em 2025
+O que era feito: Um conjunto de aulas focados em ensinar
+linguagem C para outras pessoas que estão interessadas
+em programação e usar programas como python, C+, java e outros.   
 
 ---
 
