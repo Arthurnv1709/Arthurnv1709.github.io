@@ -9,14 +9,6 @@ Tenho grande interesse em tecnologia, inteligência artificial, desenvolvimento 
 
 ---
 
-## 🌍 Contato
-
-- **Telefone:** +55 (61) 99516-9577  
-- **Email:** arthurnovais751@gmail.com
-- Linkedin: [linkedin.com/in/arthur-novais-vieira-16b28b40a](https://www.linkedin.com/in/arthur-novais-vieira-16b28b40a/)  
-
----
-
 ## 🎓 Formação Acadêmica
 
 ### 🏫 EAB – American School of Brasília
@@ -123,7 +115,10 @@ em programação e usar programas como python, C+, java e outros.
 
 ## 🤝 Conecte-se Comigo
 
-Estou aberto a oportunidades, colaborações e aprendizado contínuo.
+- **Telefone:** +55 (61) 99516-9577  
+- **Email:** arthurnovais751@gmail.com
+- **Linkedin:** [linkedin.com/in/arthur-novais-vieira-16b28b40a](https://www.linkedin.com/in/arthur-novais-vieira-16b28b40a/)  
+
 
 📧 Entre em contato!
 
