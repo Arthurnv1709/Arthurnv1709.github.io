@@ -11,7 +11,7 @@ Tenho grande interesse em tecnologia, inteligência artificial, desenvolvimento 
 
 ## 🌍 Contato
 
-- **Telefone:** +55 (61) 98160-5711  
+- **Telefone:** +55 (61) 99516-9577  
 - **Email:** arthurnovais751@gmail.com  
 
 ---
