@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meu Portfólio HUB</title>
+  <style>
+    /* Um estilo visual básico e limpo para o seu site */
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background-color: #f6f8fa;
+      color: #24292e;
+      margin: 0;
+      padding: 40px 20px;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      background: #ffffff;
+      padding: 30px;
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    }
+    h1 {
+      border-bottom: 2px solid #e1e4e8;
+      padding-bottom: 10px;
+    }
+    .btn-sincronizar {
+      padding: 12px 24px;
+      background-color: #2ea44f;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      font-weight: bold;
+      font-size: 16px;
+      cursor: pointer;
+      transition: background 0.2s;
+    }
+    .btn-sincronizar:hover {
+      background-color: #2c974b;
+    }
+    #meus-projetos-github {
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h1>Bem-vindo ao meu Portfólio HUB</h1>
+    <p>Este é o meu espaço estático para apresentar meus projetos e tecnologias.</p>
+    
+    <hr style="border: 0; border-top: 1px solid #e1e4e8; margin: 30px 0;">
+
+    <!-- Seção do GitHub integrada -->
+    <div class="portfolio-github-section">
+      <h2>Meus Projetos do GitHub</h2>
+      <p style="color: #586069;">Clique no botão abaixo para puxar meus repositórios em tempo real utilizando a API do GitHub.</p>
+      
+      <!-- Botão para ativar a sincronização -->
+      <button id="btn-github" onclick="conectarGithub()" class="btn-sincronizar">
+        Sincronizar Projetos do GitHub
+      </button>
+
+      <!-- Container onde o github.js vai injetar os projetos -->
+      <div id="meus-projetos-github">
+        <!-- Os cards dos projetos vão aparecer aqui dentro automaticamente -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Vincula o arquivo de lógica que você criou anteriormente -->
+  <script src="github.js"></script>
+</body>
+</html>
