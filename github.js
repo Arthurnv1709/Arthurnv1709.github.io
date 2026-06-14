@@ -15,11 +15,15 @@ async function verificarRetornoDoGithub() {
   const codigoTemporario = urlParams.get('code');
   const botao = document.getElementById('btn-github');
 
+  // Se veio o código "?code=..." na URL (Significa que o usuário veio do redirecionamento do GitHub)
   if (codigoTemporario) {
     if (botao) botao.innerText = "Conectando ao GitHub...";
+    
+    // Altera o texto do botão temporariamente para dar feedback visual
     window.history.replaceState({}, document.title, window.location.pathname);
 
     try {
+      // FAZ A CHAMADA PASSANDO O CÓDIGO CORRETAMENTE (?code=...)
       const response = await fetch(`${PROXY_URL}?code=${codigoTemporario}`);
       const data = await response.json();
 
@@ -36,14 +40,17 @@ async function verificarRetornoDoGithub() {
       console.error("Erro ao conectar na Vercel:", erro);
     }
   } else {
+    // Se NÃO tem código na URL, checa se já guardamos o token de um login de sucesso anterior
     const tokenSalvo = localStorage.getItem('gh_token');
     if (tokenSalvo) {
       if (botao) botao.innerText = "Atualizar Projetos";
       buscarProjetos(tokenSalvo);
+    } else {
+      // Se não tem token e nem código, deixa o botão pronto para o primeiro clique
+      if (botao) botao.innerText = "Sincronizar Projetos do GitHub";
     }
   }
 }
-
 // 3. Busca os dados dos repositórios usando o Token
 async function buscarProjetos(token) {
   const container = document.getElementById('meus-projetos-github');
