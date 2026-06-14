@@ -1,6 +1,6 @@
 // ====== CONFIGURAÇÕES DO SEU PROJETO ======
 const CLIENT_ID = "Ov23livSfNhD3Gy96Vq1"; // Seu Client ID já está aqui configurado
-const PROXY_URL = "https://SUA-URL-DA-VERCEL.vercel.app/api/auth"; // ⚠️ APAGUE ESTE LINK E COLE O SEU LINK DA VERCEL AQUI (mantenha as aspas)
+const PROXY_URL = "https://portfoliohub-proxy.vercel.app"; // ⚠️ APAGUE ESTE LINK E COLE O SEU LINK DA VERCEL AQUI (mantenha as aspas)
 // ==========================================
 
 // 1. Inicia o fluxo de login redirecionando para o GitHub
